@@ -1,11 +1,11 @@
 <html>
 <head>
 <script>
-var userLang = navigator.language || navigator.userLanguage;
-userLang = userLang.substring(0,2)
+// var userLang = navigator.language || navigator.userLanguage;
+// userLang = userLang.substring(0,2)
 
-if ( ["de", "en", "es", "fr", "it", "pl"].indexOf( userLang ) == -1)
-    userLang = "en"
+// if ( ["ar", "de", "en", "es", "fr", "it", "pl"].indexOf( userLang ) == -1)
+userLang = "ar" // all is needed is to focus in arabic for now
 window.location.replace("./thymio_blockly." + userLang + ".html")
 </script>
 <body>
