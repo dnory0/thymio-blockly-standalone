@@ -1,4 +1,4 @@
-var Blockly = require('@mobsya-association/node-blockly/browser');
+var Blockly = require('ar-node-blockly/browser');
 var alertify = require('alertifyjs');
 
 
@@ -66,17 +66,17 @@ function start() {
         media: 'media/',
         readOnly: false,
         realtime: false,
-        rtl: false,
+        rtl: true,
         scrollbars: true,
         toolbox: $('#toolbox')[0],
-                               zoom: {
-                                   controls: true,
-                               wheel: true,
-                               startScale: 1.0,
-                               maxScale: 4,
-                               minScale: .25,
-                               scaleSpeed: 1.1
-                               },
+        zoom: {
+            controls: true,
+        wheel: true,
+        startScale: 1.0,
+        maxScale: 4,
+        minScale: .25,
+        scaleSpeed: 1.1
+        },
     });
 
     Blockly.alert = function(message, callback) {

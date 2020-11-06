@@ -1,7 +1,7 @@
 {
   "name": "thymio-blockly-standalone",
   "version": "1.0.1",
-  "description": "Thymio Blockly Standalone",
+  "description": "Thymio Blockly Standalone to provide support for Arabic",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --content-base thymio_blockly",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.0.0",
-    "@mobsya-association/node-blockly": "1.4.3",
+    "ar-node-blockly": "1.4.3",
     "@mobsya/thymio-api": "^0.10.1",
     "alertifyjs": "^1.11.4",
     "babel-loader": "^8.0.2",

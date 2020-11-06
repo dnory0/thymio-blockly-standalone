@@ -1,1 +1,3 @@
 node_modules
+thymio_blockly/js
+package-lock.json
