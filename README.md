@@ -1,8 +1,7 @@
-Thymio Blockly Standalone
+A fork of Mobsya Thymio Blockly Standalone to provide support for Arabic
 =========================
 
-[![Build Status](https://dev.azure.com/mobsya/Thymio%20Software%20Suite/_apis/build/status/Mobsya.thymio-blockly-standalone?branchName=master)](https://dev.azure.com/mobsya/Thymio%20Software%20Suite/_build/latest?definitionId=5&branchName=master)
-
+**Notice:** This fork of Thymio Blockly Standalone is based on [this commit](https://github.com/mobsya/thymio-blockly-standalone/tree/55c09c0c45092a03e1adbbdd99acf99c8ebd2d53), any changes after that may not be related to the original project, this fork is intended to add support for Arabic language for thymio blockly.
 
 Usage
 =====
@@ -16,11 +15,11 @@ This applications requires the `Thymio Device Manager` to be launched separately
 Deployment
 ==========
 
- * Run `npm i` in the directory to install dependencies
- * Run `npm run build` to build the application
- 
+* Run `npm i` in the directory to install dependencies
+* Run `npm run build` to build the application
+
 Development
 ===========
- 
- * Run `npm run start` to serve the app from a web server supporting live reloading
+
+* Run `npm run start` to serve the app from a web server supporting live reloading
 
