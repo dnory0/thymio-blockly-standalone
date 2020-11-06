@@ -12,11 +12,11 @@ h1 {
 }
 
 p {
-    font-family: 'Verdana';
-    font-size: 14px;
-    line-height: 1.2em;
-    margin-bottom: 10px;
-    color: #333;
+  font-family: 'Verdana';
+  font-size: 14px;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
 }
 
 #blocklyDiv {
@@ -43,37 +43,37 @@ p {
 /* Vincent */
 /* Browser reset */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* header */
 div#header {
-    box-sizing: border-box;
-    background: #f9f9f9;
-    padding: 24px 20px 20px 20px;
-    height: 87px;
+  box-sizing: border-box;
+  background: #f9f9f9;
+  padding: 24px 20px 20px 20px;
+  height: 87px;
 }
 
 div#logo-zone {
-    position: absolute;
-    right: 20px;
-    bottom: 0;
-    z-index: 2;
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  z-index: 2;
 }
 
 #thymio-logo {
-    float: left;
-    padding: 11px 0;
+  float: left;
+  padding: 11px 0;
 }
 
 h1#logo-text {
-    font-weight: normal;
-    font-size: 18px;
-    color: #b1b1b1;
-    float: left;
-    margin-left: 10px;
-    line-height: 47px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #b1b1b1;
+  float: left;
+  margin-left: 10px;
+  line-height: 47px;
 }
 /* buttons old layout
 div#btn-menu {
@@ -99,125 +99,125 @@ a#info-btn {
 */
 
 .input-file:hover, a#info-btn:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 div#btn-menu {
-    text-align: center;
+  text-align: center;
 }
 
 .top-option-btn, .top-option-btn img {
-    transition: 0.1s ease all;
-    width: 40px;
-    height: 40px;
-    margin: 0 4px;
+  transition: 0.1s ease all;
+  width: 40px;
+  height: 40px;
+  margin: 0 4px;
 }
 
 div#rightButtons, div#centerButtons, div#leftButtons {
-display: inline-block;
+  display: inline-block;
 }
 
 div#leftButtons {
   float:left;
 }
 
-div#centerButtons {
-  
-}
+/* div#centerButtons {
+  // not sure why it is empty but commented it to reduce warnings
+} */
 
 div#rightButtons {
-    float: right;
-    margin-right: 66px;
+  float: right;
+  margin-right: 66px;
 }
 
 div#centerButtons img {
-    width: 50px;
-    height: 50px;
-    margin-top: -6px;
+  width: 50px;
+  height: 50px;
+  margin-top: -6px;
 }
 
 /*structure*/
 #blocklyDiv {
-    float: left;
-    height: 90%;
-    width: 75%;
-    margin: 0;
+  float: left;
+  height: 90%;
+  width: 75%;
+  margin: 0;
 }
 
 div#aseba-zone {
-    float: right;
-    position:absolute;
-    right: 0;
-    width: 25%;
-    height: 100%;
-    background: #f9f9f9;
-    box-sizing: border-box;
-    padding: 20px;
-    border-top: 1px solid #e3e3e3;
+  float: right;
+  position:absolute;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background: #f9f9f9;
+  box-sizing: border-box;
+  padding: 20px;
+  border-top: 1px solid #e3e3e3;
 }
 
 div#showFileName {
-    margin-top: 10px;
-    color: #777;
+  margin-top: 10px;
+  color: #777;
 }
 
 textarea#importExport {
-    border: 2px dashed #e3e3e3;
-    padding: 10px;
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 100%;
-    max-height: 600px;
+  border: 2px dashed #e3e3e3;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  max-height: 600px;
 }
 
 /* blockly toolbox style overide */
 .blocklyToolboxDiv {
-    border-top: 1px solid #e3e3e3 !important;
-    background: #f9f9f9 !important;
-    border-right: 1px solid #e3e3e3;
+  border-top: 1px solid #e3e3e3 !important;
+  background: #f9f9f9 !important;
+  border-right: 1px solid #e3e3e3;
 }
 
 .blocklyTreeLabel {
-    font-size: 14px !important;
-    padding: 10px !important;
-    color: #666 !important;
+  font-size: 14px !important;
+  padding: 10px !important;
+  color: #666 !important;
 }
 
 .blocklyTreeSelected .blocklyTreeLabel {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 /* buttons update */
 
 .input-file {
-    display: inline-block;
+  display: inline-block;
 }
 
 .input-file > input
 {
-    display: none;
+  display: none;
 }
 
 .input-file img
 {
-    cursor: pointer;
+  cursor: pointer;
 }
 /*language selection dropdown*/
 .lang {
-    background-color: #eee;
-    position: absolute;
-    right: 20px;
-    top: 23px;
-    height: 40px;
-    overflow: hidden;
-    transition: all .4s ease;
-    float: right;
-    border-radius: 5px;
-    z-index: 999;
+  background-color: #eee;
+  position: absolute;
+  right: 20px;
+  top: 23px;
+  height: 40px;
+  overflow: hidden;
+  transition: all .4s ease;
+  float: right;
+  border-radius: 5px;
+  z-index: 999;
 }
 
 .lang:hover {
-  height: 244px;
+  height: 286px;
 }
 
 .lang a{
@@ -231,13 +231,18 @@ textarea#importExport {
 }
 
 .lang li {
-    display: block;
-    padding: 0px 20px;
-    font-size: 12px;
-    font-weight: bold;
-    color: #155799;
-    line-height: 40px;
-    border-top: 1px solid #ccc;
+  display: block;
+  padding: 0px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #155799;
+  line-height: 40px;
+  border-top: 1px solid #ccc;
+}
+
+.lang li.ar-link {
+  font-size: 13px;
+  padding: 0 6px;
 }
 
 .lang li:hover{
@@ -263,15 +268,15 @@ textarea#importExport {
 }
 
 div#overlay-msg {
-    width: 50%;
-    background: white;
-    padding: 52px;
-    height: auto;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 10%;
-    border-radius: 4px;
-    position: relative;
+  width: 50%;
+  background: white;
+  padding: 52px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10%;
+  border-radius: 4px;
+  position: relative;
 }
 
 .close-button {
@@ -282,166 +287,166 @@ div#overlay-msg {
 }
 
 div#overlay-msg h1 {
-    font-weight: bold;
-    font-family: sans-serif;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    text-align: left;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: left;
 }
 
 div#overlay-msg-content {
-    text-align: left;
+  text-align: left;
 }
 
 div#overlay-msg-content p{
-    display: inline-block;
+  display: inline-block;
 }
 
 #overlay-msg-content  li {
-    text-align: left;
-    font-size: 16px;
-    font-weight: bold;
-    list-style: none;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  list-style: none;
 }
 
 #overlay-msg-content  li span {
-    color: #ececec;
-    font-weight: bold;
-    font-size: 46px;
-    margin-right: 20px;
+  color: #ececec;
+  font-weight: bold;
+  font-size: 46px;
+  margin-right: 20px;
 }
 
 img.warnIcon {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
 }
 
 /*tabs*/
 
 .tabs .tabs-wrap {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 div#tab-overlay {
-    position: fixed;
-    background: rgba(0,0,0,0.7);
-    z-index: 1000;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    display:none;
+  position: fixed;
+  background: rgba(0,0,0,0.7);
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display:none;
 }
 
 .tabs.tabs-full {
-    width: 600px;
-    margin: 0 auto;
-    background: #eee;
-    margin-top: 10%;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 3px;
-    box-shadow: 0px 3px 9px rgba(0,0,0,0.3);
+  width: 600px;
+  margin: 0 auto;
+  background: #eee;
+  margin-top: 10%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0px 3px 9px rgba(0,0,0,0.3);
 }
 
 .tabs h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
 }
 
 .tab h3 {
-    font-size: 14px;
-    margin-bottom: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .tabs {
-    padding: 0;
+  padding: 0;
 }
 
 .tab ul {
-    list-style: none;
-    padding-left: 10px;
-    margin-bottom: 20px;
+  list-style: none;
+  padding-left: 10px;
+  margin-bottom: 20px;
 }
 
 .tab li {
-    font-family: verdana;
-    font-size: 14px;
-    line-height: 1.3em;
+  font-family: verdana;
+  font-size: 14px;
+  line-height: 1.3em;
 }
 
 .tabs .tab-input {
-    display: none;
+  display: none;
 }
 
 .tabs .tab-label {
-    color: #828282;
-    cursor: pointer;
-    float: left;
-    padding: 1em;
-    text-align: center;
+  color: #828282;
+  cursor: pointer;
+  float: left;
+  padding: 1em;
+  text-align: center;
 }
 
 .tabs-full .tab-label {
-    display: table-cell;
-    float: none;
-    width: 1%;
-    font-size: 14px;
+  display: table-cell;
+  float: none;
+  width: 1%;
+  font-size: 14px;
 }
 
 .tabs .tab-label:hover {
-    color: #fff;
-    background: #558fe8;
+  color: #fff;
+  background: #558fe8;
 }
 
 .tabs .tab-input:checked + .tab-label {
-    background-color: #fff;
-    color: #333;
-    font-size: 14px;
-    font-weight: bold;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .tabs .tabs-wrap {
-    clear: both;
+  clear: both;
 }
 
 .tabs .tab {
-    background-color: #fff;
-    display: none;
-    padding: 1em;
+  background-color: #fff;
+  display: none;
+  padding: 1em;
 }
 
 .tabs .tab > *:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #tab1:checked ~ .tabs-wrap #tab1content,
 #tab2:checked ~ .tabs-wrap #tab2content,
 #tab3:checked ~ .tabs-wrap #tab3content {
-    display: block;
+  display: block;
 }
 
 .tabs img {
-    width: 110px;
-    margin-bottom: 20px;
+  width: 110px;
+  margin-bottom: 20px;
 }
 
 a.button {
-    padding: 10px 20px;
-    background: #558fe8;
-    clear: both;
-    color: white;
-    text-decoration: none;
+  padding: 10px 20px;
+  background: #558fe8;
+  clear: both;
+  color: white;
+  text-decoration: none;
 }
 
 a.button:hover {
-    background: #0f408c;
+  background: #0f408c;
 }
 
 div#appinfo {
-    display: inline-block;
+  display: inline-block;
 }
 
 #appinfo::after{
@@ -453,23 +458,23 @@ div#appinfo {
 
 }
 #appinfo h3 {
-    float: left;
-    line-height: 110px;
-    margin-left: 20px;
-    color: #444;
+  float: left;
+  line-height: 110px;
+  margin-left: 20px;
+  color: #444;
 }
 
 /*lower resolutions*/
 
 @media screen and (max-width: 1270px) {
   #blocklyDiv {
-      float: left;
-      height: 90%;
-      width: 65%;
-      margin: 0;
+    float: left;
+    height: 90%;
+    width: 65%;
+    margin: 0;
   }
   div#aseba-zone {
-      width: 35%;
+    width: 35%;
   }
   #overlay-msg-content li {
     text-align: center;
@@ -478,7 +483,6 @@ div#appinfo {
 }
 
 @media screen and (max-width: 850px) {
-
   body { 
     min-width:500px;
     min-height:500px;
@@ -491,18 +495,24 @@ div#appinfo {
     width: 100%;
     margin: 0;
   }
-div#header {
+
+  div#header {
     box-sizing: border-box;
     background: #f9f9f9;
     padding: 10px;
     height: 88px;
     text-align: center;
     position: relative;
-}
+  }
+
+  div#header.ar {
+    direction: rtl;
+  }
+
   div#btn-menu {
-      vertical-align: middle;
-      padding: 10px 0;
-      float: none;
+    vertical-align: middle;
+    padding: 10px 0;
+    float: none;
   }
 
   .top-option-btn, .top-option-btn img {
@@ -513,13 +523,13 @@ div#header {
     float: none;
   }
 
-a#info-btn {
+  a#info-btn {
     margin-left: 0;
     padding-left: 0;
     border-left: none;
     display: inline;
     margin-right: 0;
-}
+  }
 
   div#rightButtons {
     float: none;
@@ -538,14 +548,14 @@ a#info-btn {
   }
 
   textarea#importExport {
-      border: none;
-      border-top: 2px dashed #e3e3e3;
-      border-bottom: 2px dashed #e3e3e3;
-      height: 20em !important;
-      margin-top: 20px;
+    border: none;
+    border-top: 2px dashed #e3e3e3;
+    border-bottom: 2px dashed #e3e3e3;
+    height: 20em !important;
+    margin-top: 20px;
   }
 
-div#aseba-zone {
+  div#aseba-zone {
     float: none;
     position: absolute;
     right: 0;
@@ -555,36 +565,34 @@ div#aseba-zone {
     background: #f9f9f9;
     box-sizing: border-box;
     padding: 0;
-}
+  }
 
   div#showFileName {
     text-align: center;
     margin-top: 10px;
   }
-
-
 }
 
 /* Add connection status */
 
 p#th-connection-info {
-    display: inline-block;
-    line-height: 40px;
-    vertical-align: top;
-    margin: 0 10px 0 0;
-    background: #eeeeee;
-    padding: 0 10px;
-    border-radius: 5px;
-    font-size:12px;
-    color:#666;
+  display: inline-block;
+  line-height: 40px;
+  vertical-align: top;
+  margin: 0 10px 0 0;
+  background: #eeeeee;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size:12px;
+  color:#666;
 }
 
 span#th-connection-status {
-    height: 20px;
-    width: 20px;
-    display: inline-block;
-    border-radius: 50%;
-    margin: 10px 0;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 10px 0;
 }
 
 #th-connection-status.connected {
