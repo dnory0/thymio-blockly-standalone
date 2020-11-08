@@ -55,11 +55,14 @@ $().ready(function () {
     }
     update_overlay_status();
   };
-  start();
+  var file = window.location.toString();
+  var re = new RegExp(".*.([a-z]{2}).html");
+  var language = file.match(re)[1];
+  start(language == "ar");
   update_overlay_status();
 });
 
-function start() {
+function start(isRTL = false) {
   workspace = Blockly.inject("blocklyDiv", {
     comments: true,
     disable: true,
@@ -74,7 +77,7 @@ function start() {
     media: "media/",
     readOnly: false,
     realtime: false,
-    rtl: true,
+    rtl: isRTL,
     scrollbars: true,
     toolbox: $("#toolbox")[0],
     zoom: {
