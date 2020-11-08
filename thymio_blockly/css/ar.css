@@ -1,0 +1,87 @@
+div#header.ar {
+  direction: rtl;
+}
+
+div#rightButtons {
+  margin-right: 0;
+}
+
+label[for="play"] > img {
+  transform: rotate(180deg);
+}
+
+#info-btn.top-option-btn {
+  margin-left: 66px;
+}
+
+.lang {
+  left: 20px;
+  right: auto;
+}
+
+p#th-connection-info {
+  float: right;
+  margin-right: 10px;
+}
+
+#th-connection-status {
+  float: right;
+}
+
+div#aseba-zone {
+  float: left;
+  right: auto;
+  left: 0;
+}
+
+#blocklyDiv {
+  float: right;
+}
+
+div#logo-zone {
+  right: auto;
+  left: 20px;
+}
+
+#appinfo {
+  float: right;
+  width: 100%;
+}
+
+#appinfo img {
+  float: right;
+}
+
+#appinfo h3 {
+  float: right;
+  margin-right: 20px;
+}
+
+.tabs-wrap > div {
+  direction: rtl;
+}
+
+@media screen and (max-width: 850px) {
+  #info-btn.top-option-btn {
+    margin-left: 0;
+  }
+
+  .lang {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+
+  #blocklyDiv {
+    float: none;
+  }
+
+  div#aseba-zone {
+    float: none;
+    right: 0;
+    left: 0;
+  }
+
+  span#th-connection-status {
+    margin-right: 10px;
+  }
+}

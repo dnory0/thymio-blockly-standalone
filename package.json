@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "@babel/core": "^7.0.0",
-    "ar-node-blockly": "1.4.3",
     "@mobsya/thymio-api": "^0.10.1",
     "alertifyjs": "^1.11.4",
+    "ar-node-blockly": "^1.4.5-0",
     "babel-loader": "^8.0.2",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
