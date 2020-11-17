@@ -21,11 +21,12 @@ label[for="play"] > img {
 
 p#th-connection-info {
   float: right;
-  margin-right: 10px;
+  margin-right: 0;
 }
 
-#th-connection-status {
+span#th-connection-status {
   float: right;
+  margin-right: 10px;
 }
 
 div#aseba-zone {
@@ -81,7 +82,7 @@ div#logo-zone {
     left: 0;
   }
 
-  span#th-connection-status {
+  p#th-connection-info {
     margin-right: 10px;
   }
 }
